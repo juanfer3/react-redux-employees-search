@@ -35,8 +35,6 @@ class Employee extends Component {
     render() {
         let employee = []
         if (this.props.employee.data) {
-
-
             employee = this.props.employee.data
             .filter(value => {
                 if(value.employee_name.toLowerCase().indexOf(this.state.search.toLocaleLowerCase()) >= 0){
@@ -52,9 +50,11 @@ class Employee extends Component {
             .map((emp, index, array)=>{
                 return(
                     <Card 
-                    key={index} fluid  
+                    textAlign='justify'
+                    className="shadows"
+                    href='#'
+                    key={index} centered  
                     header={emp.employee_name} 
-                    // meta={'Salario: '+ emp.employee_salary}
                     meta={<CurrencyFormat value={emp.employee_salary} displayType={'text'} thousandSeparator={true} prefix={'$ '}/>}
                     description={'Edad: '+emp.employee_age}
                     />
@@ -76,6 +76,7 @@ class Employee extends Component {
         return (
             <div>
                 <Container textAlign='center'>
+                    <br/>
                     <h3>Empleados</h3>
                     <div>
                         <Input 
@@ -83,7 +84,7 @@ class Employee extends Component {
                         value={this.state.search} 
                         name='search'
                         icon={{ name: 'search', circular: true, link: true }} 
-                        placeholder='Search...' />
+                        placeholder='Buscar...' />
                     </div>
                     <br/>
                     <Card.Group>
