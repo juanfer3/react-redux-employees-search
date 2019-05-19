@@ -3,16 +3,15 @@
 This project was bootstrapped with Create React App
 ## Instalación
 
-$ Descargar el repositorio<br/>
-$ cd react-redux-employees-search
 
-Ejectar en la consola
+Descargar el repositorio<br/>
+Ejectar en la consola<br/>
 
-### `npm install`
-### `npm start`
+$ cd react-redux-employees-search<br/>
+$ npm install <br/>
+$ npm start<br/>
 
-y abrir el puerto [localhost:3000]
-(http://localhost:3000)
+y abrir el puerto [http://localhost:3000](http://localhost:3000)
 
 
 
