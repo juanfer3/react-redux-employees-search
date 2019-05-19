@@ -7,15 +7,11 @@ import { getEmployee } from '../../Actions'
 import './Employee.css';
 
 import { PacmanLoader } from 'react-spinners';
+import CurrencyFormat from 'react-currency-format';
 
 import { 
     Container,
-    Button,
     Card,
-    Search, 
-    Grid, 
-    Header, 
-    Segment,
     Input
  } from 'semantic-ui-react'
 
@@ -58,7 +54,8 @@ class Employee extends Component {
                     <Card 
                     key={index} fluid  
                     header={emp.employee_name} 
-                    meta={'Salario: '+ emp.employee_salary}
+                    // meta={'Salario: '+ emp.employee_salary}
+                    meta={<CurrencyFormat value={emp.employee_salary} displayType={'text'} thousandSeparator={true} prefix={'$ '}/>}
                     description={'Edad: '+emp.employee_age}
                     />
                 ) 

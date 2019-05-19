@@ -1,0 +1,14 @@
+
+.container_navbar{
+    color: white;
+    font-family: 'Baloo', cursive;
+    padding: 10px;
+    background: black;
+}
+.container_navbar a{
+    color: white
+}
+
+.container_navbar a:hover{
+    color: #58D7C0;
+}
