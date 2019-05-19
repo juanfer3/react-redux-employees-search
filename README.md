@@ -1,7 +1,7 @@
 ## :sunglasses: Great App !:sunglasses:
 
 This project was bootstrapped with Create React App
-## Isntalación
+## Instalación
 
 $ Descargar el repositorio<br/>
 $ cd react-redux-employees-search
