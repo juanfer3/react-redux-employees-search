@@ -15,8 +15,8 @@ class Home extends Component {
         <Container textAlign='center'>
           <div className="container_home">
               <img width="30%" src="https://cdn3.iconfinder.com/data/icons/diversity-avatars/64/hipster-beard-african-512.png"/>
-            <h1 className="title_home">Lista todos los empleados de tu compañia</h1>
-            <p className="letter_normal">Este páginas encontraras un buscador multiple de nombre saliario y edad</p>
+            <h1 className="title_home">Consulta aquí todos los empleados de tu compañia</h1>
+            <p className="letter_normal">En esta App encontraras un buscador multiple de nombre salario y edad</p>
             <div>
               <Button className="btn_transition" as={ Link } to='/employees' negative>Ver empleados</Button>
               <Button color="white">Standard</Button>
