@@ -3,7 +3,7 @@
 This project was bootstrapped with Create React App
 ## Isntalación
 
-$ Descargar el repositorio
+$ Descargar el repositorio<br/>
 $ cd react-redux-employees-search
 
 Ejectar en la consola
